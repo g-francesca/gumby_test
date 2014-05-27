@@ -1,0 +1,35 @@
+// FEATURES Module Style
+
+@import "partials/base";
+@import "partials/typography";
+
+#features {
+	margin-bottom: 1em;
+	article {
+		// margin-top: 3em;
+		h3 {
+			text-align: center;
+			padding: 35px 0;
+		}
+		p {
+			text-align: center;
+		}
+		.circle {
+			position: relative;
+			width:36%;
+			height: 0;
+			padding: 18% 0;
+			@include border-radius(150px);
+			background: $green;
+			text-align: center;
+			display:block;
+			margin: 0 auto;
+			.fa {
+				font-size: 3.5em;
+				color: white; 
+				line-height: 10%;
+				display: block;
+			}
+		}
+	}
+}

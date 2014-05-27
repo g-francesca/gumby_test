@@ -1,0 +1,41 @@
+// FEATURES Module Style
+
+@import "partials/base";
+@import "partials/typography";
+
+#testimonial {
+	.quote {
+		div {
+			display:none;
+		}
+		div:first-child {
+			display: block;
+		}
+	}
+	.avatar {
+		margin: 0 auto;
+		text-align: center;
+		cursor: pointer;
+		position:relative;
+		span {
+			display: inline-block;
+		    height: 50px;
+		    position: relative;
+		    width: 50px;
+		    @include opacity(10);
+		    @include transition(all .3 linear);
+				&:hover {
+					@include opacity(5);
+				}
+		}
+	}
+	h5 {
+		text-align: center;
+	}
+}
+
+#avatar {
+	display: inline-block;
+}
+
+

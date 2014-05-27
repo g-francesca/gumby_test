@@ -1,0 +1,24 @@
+// CONTACTS Module Style
+
+@import "partials/base";
+@import "partials/typography";
+
+#contact {
+	article {
+		h3 {
+			text-align: center;
+		}
+		p:first-of-type {
+			text-align: center;
+		}
+		.fa-wrap {
+			margin-top: 40px;
+			text-align: center;
+			.fa {
+				width: 5%;
+				padding: 2.5% 0;
+				background-color: lighten($title, 30%);
+			}
+		}
+	}
+}

@@ -1,0 +1,87 @@
+// SLIDER Module Style
+
+@import "partials/base";
+@import "partials/typography";
+
+#slider.responsive-bg {
+	width: 100%;
+	*width: 100%;
+	background-image: url('../img/slider.jpg');
+	background-size: cover;
+	background-position: center;
+	max-height: 600px;
+	padding-bottom: 32%;
+	background-attachment:fixed;
+	position: relative;
+	#main {
+		margin-top: 20.25%;
+		h1{
+			text-indent: -9999px;
+			display:block;
+			background: url(../img/logo.png) no-repeat;
+			width: 60%;
+			max-width: 182px;
+			background-size: contain;
+		}
+		p {
+			font-size: 1.5em;
+			color: white;
+		}
+	}
+	#handphone {
+		position: absolute;
+		bottom:0;
+		right:0;
+		height: 507px;
+		background: url('../img/hand-iphone.png') no-repeat;
+	}
+}
+
+@-webkit-keyframes toBottomFromTop {
+	49% {
+		-webkit-transform: translateY(100%);
+	}
+	50% {
+		opacity: 0;
+		-webkit-transform: translateY(-100%);
+	}
+	51% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes toBottomFromTop {
+	49% {
+		-moz-transform: translateY(100%);
+	}
+	50% {
+		opacity: 0;
+		-moz-transform: translateY(-100%);
+	}
+	51% {
+		opacity: 1;
+	}
+}
+@-o-keyframes toBottomFromTop {
+	49% {
+		-o-transform: translateY(100%);
+	}
+	50% {
+		opacity: 0;
+		-o-transform: translateY(-100%);
+	}
+	51% {
+		opacity: 1;
+	}
+}
+@keyframes toBottomFromTop {
+	49% {
+		transform: translateY(100%);
+	}
+	50% {
+		opacity: 0;
+		transform: translateY(-100%);
+	}
+	51% {
+		opacity: 1;
+	}
+}

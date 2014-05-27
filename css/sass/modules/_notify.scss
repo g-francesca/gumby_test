@@ -1,0 +1,32 @@
+// NOTIFY Module Style
+
+@import "partials/base";
+@import "partials/typography";
+
+#notified {
+	width: 100%;
+	background-color: $gray;
+	input[type="email"] {
+		float:left;
+		@include border-radius(1em 0 0 1em);
+		width: 60%;
+		border-right: 0;
+	}
+	input[type="submit"] {
+		background-color: $green;
+		width:30%;
+		border: 0; 
+		padding: 20px;
+		color: white;
+		@include border-radius(0 1em 1em 0);
+		cursor: pointer;
+		font-weight: bold;
+		@include transition(background-color .3s linear);
+		&:hover {
+			background-color: darken($green, 5%);
+		}
+	}
+	.vimeo {
+		padding: 2em 0 0;
+	}
+}

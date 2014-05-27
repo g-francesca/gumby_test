@@ -1,0 +1,60 @@
+// Media Query style
+
+@media screen and (max-width: 780px)  {
+	body {
+		font-size: 90%;
+	}
+	q {
+		text-align: center;
+	}
+	#notified .vimeo {
+    padding: 0 0 2em;
+	}
+	#notified input[type="submit"] {
+		width: 40%;
+	}
+	.fa-wrap {
+		text-align: center;
+		margin-top: 1.5em;
+		.fa {
+			width: 50px !important;
+			padding: 25px 0 !important;
+		}
+	}
+	#slider.responsive-bg #main {
+		h1 {
+		width: 100%;
+		max-width: 100%;
+		background-position: center;
+		margin: 1.5em 0 0.5em 0;
+		}	
+		p {
+			text-align: center;
+			text-shadow: 1px 1px 3px #666;
+		}
+	} 
+}
+
+@media screen and (max-width: 504px) {
+	p {
+		text-align: center;
+	}
+	h1, h2, h3, h4, h5 {
+		text-align: center;
+	}
+	#device {
+		display: none;
+	}
+	#hamburger {
+		display: block;
+		// padding: 0.4em 0;
+		// cursor: pointer;
+		.mobile_nav {
+			// display: none;
+		}
+	}
+}
+
+@media screen and (max-width: 300px) {
+	
+}

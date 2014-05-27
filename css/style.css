@@ -1,0 +1,1351 @@
+@import url(http://fonts.googleapis.com/css?family=Alef);
+@import url(http://fonts.googleapis.com/css?family=Alef);
+@import url(http://fonts.googleapis.com/css?family=Alef);
+@import url(http://fonts.googleapis.com/css?family=Alef);
+@import url(http://fonts.googleapis.com/css?family=Alef);
+@import url(http://fonts.googleapis.com/css?family=Alef);
+@import url(http://fonts.googleapis.com/css?family=Alef);
+/* Main Sass Style */
+/* line 5, sass/partials/_typography.scss */
+html, body {
+  font-size: 14px;
+  font-size: 100%;
+}
+
+/* line 10, sass/partials/_typography.scss */
+.wrapper {
+  background-color: white;
+}
+
+/* line 14, sass/partials/_typography.scss */
+.hidden {
+  text-indent: -9999px;
+  height: 0;
+}
+
+/* line 19, sass/partials/_typography.scss */
+section {
+  margin-bottom: 3.75em;
+  clear: both;
+  _overflow: visible;
+  /* for IE */
+  _zoom: 1;
+  /* for IE */
+}
+/* line 24, sass/partials/_typography.scss */
+section article {
+  margin-bottom: 3em;
+}
+
+/* line 29, sass/partials/_typography.scss */
+h1 {
+  font-size: 2.25em;
+}
+
+/* line 33, sass/partials/_typography.scss */
+h2 {
+  font-size: 1.5em;
+}
+
+/* line 37, sass/partials/_typography.scss */
+h3 {
+  font-size: 1.3125em;
+  font-weight: bold;
+  color: #222222;
+  padding: 2em 0;
+}
+
+/* line 44, sass/partials/_typography.scss */
+h4 {
+  font-size: 1.125em;
+  font-weight: bold;
+  color: #222222;
+  padding: 2em 0;
+}
+
+/* line 51, sass/partials/_typography.scss */
+h5 {
+  font-size: 1em;
+  font-weight: bold;
+  color: #222222;
+  padding: 2em 0;
+}
+
+/* line 58, sass/partials/_typography.scss */
+q {
+  font-style: italic;
+  text-align: center;
+}
+/* line 61, sass/partials/_typography.scss */
+q::before, q::after {
+  content: '"';
+}
+
+/* line 66, sass/partials/_typography.scss */
+p {
+  font-size: 1em;
+}
+
+/* line 70, sass/partials/_typography.scss */
+a {
+  font-family: Open Sans;
+}
+
+/* line 74, sass/partials/_typography.scss */
+input {
+  padding: 18px;
+  border: 2px solid #c8c8c8;
+}
+/* line 77, sass/partials/_typography.scss */
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 82, sass/partials/_typography.scss */
+input:focus {
+  outline: none;
+}
+
+/* line 6, sass/modules/_header.scss */
+#main_head {
+  background-color: #2ecc71;
+  color: white;
+}
+/* line 9, sass/modules/_header.scss */
+#main_head #main_nav {
+  list-style: none;
+  float: left;
+  width: 100%;
+}
+/* line 14, sass/modules/_header.scss */
+#main_head #main_nav #device li {
+  display: inline;
+  float: left;
+  border-right: 1px solid #26ab5f;
+  border-left: 1px solid #7ee2a8;
+  padding-bottom: 0;
+}
+/* line 21, sass/modules/_header.scss */
+#main_head #main_nav #device li:first-child {
+  border-left: 1px solid #26ab5f;
+}
+/* line 23, sass/modules/_header.scss */
+#main_head #main_nav #device li:first-child:before {
+  content: '';
+  border-right: 1px solid #7ee2a8;
+  padding: 16px 0;
+}
+/* line 30, sass/modules/_header.scss */
+#main_head #main_nav #device li:last-child:after {
+  border-left: 1px solid #7ee2a8;
+  content: '';
+  padding: 16px 0;
+}
+/* line 36, sass/modules/_header.scss */
+#main_head #main_nav #device a {
+  color: white;
+  background: #2ecc71;
+  padding: 15px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  transition: background 0.3s linear;
+  -webkit-transition: background 0.3s linear;
+  -moz-transition: background 0.3s linear;
+  -o-transition: background 0.3s linear;
+}
+/* line 44, sass/modules/_header.scss */
+#main_head #main_nav #device a:hover {
+  background: #29b765;
+}
+
+/* line 52, sass/modules/_header.scss */
+#hamburger {
+  display: none;
+  cursor: pointer;
+  padding: 1em 0 0.5em;
+  width: 100%;
+}
+/* line 57, sass/modules/_header.scss */
+#hamburger span {
+  font-family: fontAwesome;
+  font-size: 2.5em;
+  width: 100%;
+}
+/* line 62, sass/modules/_header.scss */
+#hamburger .mobile_nav {
+  width: 100%;
+}
+/* line 64, sass/modules/_header.scss */
+#hamburger .mobile_nav li {
+  float: none !important;
+  display: block !important;
+}
+/* line 67, sass/modules/_header.scss */
+#hamburger .mobile_nav li a {
+  text-align: center;
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+}
+
+/* line 5, sass/partials/_typography.scss */
+html, body {
+  font-size: 14px;
+  font-size: 100%;
+}
+
+/* line 10, sass/partials/_typography.scss */
+.wrapper {
+  background-color: white;
+}
+
+/* line 14, sass/partials/_typography.scss */
+.hidden {
+  text-indent: -9999px;
+  height: 0;
+}
+
+/* line 19, sass/partials/_typography.scss */
+section {
+  margin-bottom: 3.75em;
+  clear: both;
+  _overflow: visible;
+  /* for IE */
+  _zoom: 1;
+  /* for IE */
+}
+/* line 24, sass/partials/_typography.scss */
+section article {
+  margin-bottom: 3em;
+}
+
+/* line 29, sass/partials/_typography.scss */
+h1 {
+  font-size: 2.25em;
+}
+
+/* line 33, sass/partials/_typography.scss */
+h2 {
+  font-size: 1.5em;
+}
+
+/* line 37, sass/partials/_typography.scss */
+h3 {
+  font-size: 1.3125em;
+  font-weight: bold;
+  color: #222222;
+  padding: 2em 0;
+}
+
+/* line 44, sass/partials/_typography.scss */
+h4 {
+  font-size: 1.125em;
+  font-weight: bold;
+  color: #222222;
+  padding: 2em 0;
+}
+
+/* line 51, sass/partials/_typography.scss */
+h5 {
+  font-size: 1em;
+  font-weight: bold;
+  color: #222222;
+  padding: 2em 0;
+}
+
+/* line 58, sass/partials/_typography.scss */
+q {
+  font-style: italic;
+  text-align: center;
+}
+/* line 61, sass/partials/_typography.scss */
+q::before, q::after {
+  content: '"';
+}
+
+/* line 66, sass/partials/_typography.scss */
+p {
+  font-size: 1em;
+}
+
+/* line 70, sass/partials/_typography.scss */
+a {
+  font-family: Open Sans;
+}
+
+/* line 74, sass/partials/_typography.scss */
+input {
+  padding: 18px;
+  border: 2px solid #c8c8c8;
+}
+/* line 77, sass/partials/_typography.scss */
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 82, sass/partials/_typography.scss */
+input:focus {
+  outline: none;
+}
+
+/* line 6, sass/modules/_slider.scss */
+#slider.responsive-bg {
+  width: 100%;
+  *width: 100%;
+  background-image: url("../img/slider.jpg");
+  background-size: cover;
+  background-position: center;
+  max-height: 600px;
+  padding-bottom: 32%;
+  background-attachment: fixed;
+  position: relative;
+}
+/* line 16, sass/modules/_slider.scss */
+#slider.responsive-bg #main {
+  margin-top: 20.25%;
+}
+/* line 18, sass/modules/_slider.scss */
+#slider.responsive-bg #main h1 {
+  text-indent: -9999px;
+  display: block;
+  background: url(../img/logo.png) no-repeat;
+  width: 60%;
+  max-width: 182px;
+  background-size: contain;
+}
+/* line 26, sass/modules/_slider.scss */
+#slider.responsive-bg #main p {
+  font-size: 1.5em;
+  color: white;
+}
+/* line 31, sass/modules/_slider.scss */
+#slider.responsive-bg #handphone {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 507px;
+  background: url("../img/hand-iphone.png") no-repeat;
+}
+
+@-webkit-keyframes toBottomFromTop {
+  /* line 41, sass/modules/_slider.scss */
+  49% {
+    -webkit-transform: translateY(100%);
+  }
+
+  /* line 44, sass/modules/_slider.scss */
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+  }
+
+  /* line 48, sass/modules/_slider.scss */
+  51% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes toBottomFromTop {
+  /* line 53, sass/modules/_slider.scss */
+  49% {
+    -moz-transform: translateY(100%);
+  }
+
+  /* line 56, sass/modules/_slider.scss */
+  50% {
+    opacity: 0;
+    -moz-transform: translateY(-100%);
+  }
+
+  /* line 60, sass/modules/_slider.scss */
+  51% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes toBottomFromTop {
+  /* line 65, sass/modules/_slider.scss */
+  49% {
+    -o-transform: translateY(100%);
+  }
+
+  /* line 68, sass/modules/_slider.scss */
+  50% {
+    opacity: 0;
+    -o-transform: translateY(-100%);
+  }
+
+  /* line 72, sass/modules/_slider.scss */
+  51% {
+    opacity: 1;
+  }
+}
+
+@keyframes toBottomFromTop {
+  /* line 77, sass/modules/_slider.scss */
+  49% {
+    transform: translateY(100%);
+  }
+
+  /* line 80, sass/modules/_slider.scss */
+  50% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  /* line 84, sass/modules/_slider.scss */
+  51% {
+    opacity: 1;
+  }
+}
+
+/* line 5, sass/partials/_typography.scss */
+html, body {
+  font-size: 14px;
+  font-size: 100%;
+}
+
+/* line 10, sass/partials/_typography.scss */
+.wrapper {
+  background-color: white;
+}
+
+/* line 14, sass/partials/_typography.scss */
+.hidden {
+  text-indent: -9999px;
+  height: 0;
+}
+
+/* line 19, sass/partials/_typography.scss */
+section {
+  margin-bottom: 3.75em;
+  clear: both;
+  _overflow: visible;
+  /* for IE */
+  _zoom: 1;
+  /* for IE */
+}
+/* line 24, sass/partials/_typography.scss */
+section article {
+  margin-bottom: 3em;
+}
+
+/* line 29, sass/partials/_typography.scss */
+h1 {
+  font-size: 2.25em;
+}
+
+/* line 33, sass/partials/_typography.scss */
+h2 {
+  font-size: 1.5em;
+}
+
+/* line 37, sass/partials/_typography.scss */
+h3 {
+  font-size: 1.3125em;
+  font-weight: bold;
+  color: #222222;
+  padding: 2em 0;
+}
+
+/* line 44, sass/partials/_typography.scss */
+h4 {
+  font-size: 1.125em;
+  font-weight: bold;
+  color: #222222;
+  padding: 2em 0;
+}
+
+/* line 51, sass/partials/_typography.scss */
+h5 {
+  font-size: 1em;
+  font-weight: bold;
+  color: #222222;
+  padding: 2em 0;
+}
+
+/* line 58, sass/partials/_typography.scss */
+q {
+  font-style: italic;
+  text-align: center;
+}
+/* line 61, sass/partials/_typography.scss */
+q::before, q::after {
+  content: '"';
+}
+
+/* line 66, sass/partials/_typography.scss */
+p {
+  font-size: 1em;
+}
+
+/* line 70, sass/partials/_typography.scss */
+a {
+  font-family: Open Sans;
+}
+
+/* line 74, sass/partials/_typography.scss */
+input {
+  padding: 18px;
+  border: 2px solid #c8c8c8;
+}
+/* line 77, sass/partials/_typography.scss */
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 82, sass/partials/_typography.scss */
+input:focus {
+  outline: none;
+}
+
+/* line 6, sass/modules/_features.scss */
+#features {
+  margin-bottom: 1em;
+}
+/* line 10, sass/modules/_features.scss */
+#features article h3 {
+  text-align: center;
+  padding: 35px 0;
+}
+/* line 14, sass/modules/_features.scss */
+#features article p {
+  text-align: center;
+}
+/* line 17, sass/modules/_features.scss */
+#features article .circle {
+  position: relative;
+  width: 36%;
+  height: 0;
+  padding: 18% 0;
+  -moz-border-radius: 150px;
+  /* Firefox */
+  -webkit-border-radius: 150px;
+  /* Safari, Chrome */
+  -o-border-radius: 150px;
+  -ms-border-radius: 150px;
+  border-radius: 150px;
+  /* CSS3 */
+  background: #2ecc71;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+/* line 27, sass/modules/_features.scss */
+#features article .circle .fa {
+  font-size: 3.5em;
+  color: white;
+  line-height: 10%;
+  display: block;
+}
+
+/* line 5, sass/partials/_typography.scss */
+html, body {
+  font-size: 14px;
+  font-size: 100%;
+}
+
+/* line 10, sass/partials/_typography.scss */
+.wrapper {
+  background-color: white;
+}
+
+/* line 14, sass/partials/_typography.scss */
+.hidden {
+  text-indent: -9999px;
+  height: 0;
+}
+
+/* line 19, sass/partials/_typography.scss */
+section {
+  margin-bottom: 3.75em;
+  clear: both;
+  _overflow: visible;
+  /* for IE */
+  _zoom: 1;
+  /* for IE */
+}
+/* line 24, sass/partials/_typography.scss */
+section article {
+  margin-bottom: 3em;
+}
+
+/* line 29, sass/partials/_typography.scss */
+h1 {
+  font-size: 2.25em;
+}
+
+/* line 33, sass/partials/_typography.scss */
+h2 {
+  font-size: 1.5em;
+}
+
+/* line 37, sass/partials/_typography.scss */
+h3 {
+  font-size: 1.3125em;
+  font-weight: bold;
+  color: #222222;
+  padding: 2em 0;
+}
+
+/* line 44, sass/partials/_typography.scss */
+h4 {
+  font-size: 1.125em;
+  font-weight: bold;
+  color: #222222;
+  padding: 2em 0;
+}
+
+/* line 51, sass/partials/_typography.scss */
+h5 {
+  font-size: 1em;
+  font-weight: bold;
+  color: #222222;
+  padding: 2em 0;
+}
+
+/* line 58, sass/partials/_typography.scss */
+q {
+  font-style: italic;
+  text-align: center;
+}
+/* line 61, sass/partials/_typography.scss */
+q::before, q::after {
+  content: '"';
+}
+
+/* line 66, sass/partials/_typography.scss */
+p {
+  font-size: 1em;
+}
+
+/* line 70, sass/partials/_typography.scss */
+a {
+  font-family: Open Sans;
+}
+
+/* line 74, sass/partials/_typography.scss */
+input {
+  padding: 18px;
+  border: 2px solid #c8c8c8;
+}
+/* line 77, sass/partials/_typography.scss */
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 82, sass/partials/_typography.scss */
+input:focus {
+  outline: none;
+}
+
+/* line 6, sass/modules/_notify.scss */
+#notified {
+  width: 100%;
+  background-color: #e3e3e3;
+}
+/* line 9, sass/modules/_notify.scss */
+#notified input[type="email"] {
+  float: left;
+  -moz-border-radius: 1em 0 0 1em;
+  /* Firefox */
+  -webkit-border-radius: 1em 0 0 1em;
+  /* Safari, Chrome */
+  -o-border-radius: 1em 0 0 1em;
+  -ms-border-radius: 1em 0 0 1em;
+  border-radius: 1em 0 0 1em;
+  /* CSS3 */
+  width: 60%;
+  border-right: 0;
+}
+/* line 15, sass/modules/_notify.scss */
+#notified input[type="submit"] {
+  background-color: #2ecc71;
+  width: 30%;
+  border: 0;
+  padding: 20px;
+  color: white;
+  -moz-border-radius: 0 1em 1em 0;
+  /* Firefox */
+  -webkit-border-radius: 0 1em 1em 0;
+  /* Safari, Chrome */
+  -o-border-radius: 0 1em 1em 0;
+  -ms-border-radius: 0 1em 1em 0;
+  border-radius: 0 1em 1em 0;
+  /* CSS3 */
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s linear;
+  -webkit-transition: background-color 0.3s linear;
+  -moz-transition: background-color 0.3s linear;
+  -o-transition: background-color 0.3s linear;
+}
+/* line 25, sass/modules/_notify.scss */
+#notified input[type="submit"]:hover {
+  background-color: #29b765;
+}
+/* line 29, sass/modules/_notify.scss */
+#notified .vimeo {
+  padding: 2em 0 0;
+}
+
+/* line 5, sass/partials/_typography.scss */
+html, body {
+  font-size: 14px;
+  font-size: 100%;
+}
+
+/* line 10, sass/partials/_typography.scss */
+.wrapper {
+  background-color: white;
+}
+
+/* line 14, sass/partials/_typography.scss */
+.hidden {
+  text-indent: -9999px;
+  height: 0;
+}
+
+/* line 19, sass/partials/_typography.scss */
+section {
+  margin-bottom: 3.75em;
+  clear: both;
+  _overflow: visible;
+  /* for IE */
+  _zoom: 1;
+  /* for IE */
+}
+/* line 24, sass/partials/_typography.scss */
+section article {
+  margin-bottom: 3em;
+}
+
+/* line 29, sass/partials/_typography.scss */
+h1 {
+  font-size: 2.25em;
+}
+
+/* line 33, sass/partials/_typography.scss */
+h2 {
+  font-size: 1.5em;
+}
+
+/* line 37, sass/partials/_typography.scss */
+h3 {
+  font-size: 1.3125em;
+  font-weight: bold;
+  color: #222222;
+  padding: 2em 0;
+}
+
+/* line 44, sass/partials/_typography.scss */
+h4 {
+  font-size: 1.125em;
+  font-weight: bold;
+  color: #222222;
+  padding: 2em 0;
+}
+
+/* line 51, sass/partials/_typography.scss */
+h5 {
+  font-size: 1em;
+  font-weight: bold;
+  color: #222222;
+  padding: 2em 0;
+}
+
+/* line 58, sass/partials/_typography.scss */
+q {
+  font-style: italic;
+  text-align: center;
+}
+/* line 61, sass/partials/_typography.scss */
+q::before, q::after {
+  content: '"';
+}
+
+/* line 66, sass/partials/_typography.scss */
+p {
+  font-size: 1em;
+}
+
+/* line 70, sass/partials/_typography.scss */
+a {
+  font-family: Open Sans;
+}
+
+/* line 74, sass/partials/_typography.scss */
+input {
+  padding: 18px;
+  border: 2px solid #c8c8c8;
+}
+/* line 77, sass/partials/_typography.scss */
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 82, sass/partials/_typography.scss */
+input:focus {
+  outline: none;
+}
+
+/* line 8, sass/modules/_testimonial.scss */
+#testimonial .quote div {
+  display: none;
+}
+/* line 11, sass/modules/_testimonial.scss */
+#testimonial .quote div:first-child {
+  display: block;
+}
+/* line 15, sass/modules/_testimonial.scss */
+#testimonial .avatar {
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+/* line 20, sass/modules/_testimonial.scss */
+#testimonial .avatar span {
+  display: inline-block;
+  height: 50px;
+  position: relative;
+  width: 50px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" 10 ")";
+  /* IE 5-7 */
+  filter: alpha(opacity=10);
+  /* Netscape */
+  -moz-opacity: 1;
+  /* Safari 1.x */
+  -khtml-opacity: 1;
+  /* Good browsers */
+  opacity: 1;
+  transition: all 0.3 linear;
+  -webkit-transition: all 0.3 linear;
+  -moz-transition: all 0.3 linear;
+  -o-transition: all 0.3 linear;
+}
+/* line 27, sass/modules/_testimonial.scss */
+#testimonial .avatar span:hover {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" 5 ")";
+  /* IE 5-7 */
+  filter: alpha(opacity=5);
+  /* Netscape */
+  -moz-opacity: 0.5;
+  /* Safari 1.x */
+  -khtml-opacity: 0.5;
+  /* Good browsers */
+  opacity: 0.5;
+}
+/* line 32, sass/modules/_testimonial.scss */
+#testimonial h5 {
+  text-align: center;
+}
+
+/* line 37, sass/modules/_testimonial.scss */
+#avatar {
+  display: inline-block;
+}
+
+/* line 5, sass/partials/_typography.scss */
+html, body {
+  font-size: 14px;
+  font-size: 100%;
+}
+
+/* line 10, sass/partials/_typography.scss */
+.wrapper {
+  background-color: white;
+}
+
+/* line 14, sass/partials/_typography.scss */
+.hidden {
+  text-indent: -9999px;
+  height: 0;
+}
+
+/* line 19, sass/partials/_typography.scss */
+section {
+  margin-bottom: 3.75em;
+  clear: both;
+  _overflow: visible;
+  /* for IE */
+  _zoom: 1;
+  /* for IE */
+}
+/* line 24, sass/partials/_typography.scss */
+section article {
+  margin-bottom: 3em;
+}
+
+/* line 29, sass/partials/_typography.scss */
+h1 {
+  font-size: 2.25em;
+}
+
+/* line 33, sass/partials/_typography.scss */
+h2 {
+  font-size: 1.5em;
+}
+
+/* line 37, sass/partials/_typography.scss */
+h3 {
+  font-size: 1.3125em;
+  font-weight: bold;
+  color: #222222;
+  padding: 2em 0;
+}
+
+/* line 44, sass/partials/_typography.scss */
+h4 {
+  font-size: 1.125em;
+  font-weight: bold;
+  color: #222222;
+  padding: 2em 0;
+}
+
+/* line 51, sass/partials/_typography.scss */
+h5 {
+  font-size: 1em;
+  font-weight: bold;
+  color: #222222;
+  padding: 2em 0;
+}
+
+/* line 58, sass/partials/_typography.scss */
+q {
+  font-style: italic;
+  text-align: center;
+}
+/* line 61, sass/partials/_typography.scss */
+q::before, q::after {
+  content: '"';
+}
+
+/* line 66, sass/partials/_typography.scss */
+p {
+  font-size: 1em;
+}
+
+/* line 70, sass/partials/_typography.scss */
+a {
+  font-family: Open Sans;
+}
+
+/* line 74, sass/partials/_typography.scss */
+input {
+  padding: 18px;
+  border: 2px solid #c8c8c8;
+}
+/* line 77, sass/partials/_typography.scss */
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 82, sass/partials/_typography.scss */
+input:focus {
+  outline: none;
+}
+
+/* line 8, sass/modules/_contacts.scss */
+#contact article h3 {
+  text-align: center;
+}
+/* line 11, sass/modules/_contacts.scss */
+#contact article p:first-of-type {
+  text-align: center;
+}
+/* line 14, sass/modules/_contacts.scss */
+#contact article .fa-wrap {
+  margin-top: 40px;
+  text-align: center;
+}
+/* line 17, sass/modules/_contacts.scss */
+#contact article .fa-wrap .fa {
+  width: 5%;
+  padding: 2.5% 0;
+  background-color: #6f6f6f;
+}
+
+/* line 5, sass/partials/_typography.scss */
+html, body {
+  font-size: 14px;
+  font-size: 100%;
+}
+
+/* line 10, sass/partials/_typography.scss */
+.wrapper {
+  background-color: white;
+}
+
+/* line 14, sass/partials/_typography.scss */
+.hidden {
+  text-indent: -9999px;
+  height: 0;
+}
+
+/* line 19, sass/partials/_typography.scss */
+section {
+  margin-bottom: 3.75em;
+  clear: both;
+  _overflow: visible;
+  /* for IE */
+  _zoom: 1;
+  /* for IE */
+}
+/* line 24, sass/partials/_typography.scss */
+section article {
+  margin-bottom: 3em;
+}
+
+/* line 29, sass/partials/_typography.scss */
+h1 {
+  font-size: 2.25em;
+}
+
+/* line 33, sass/partials/_typography.scss */
+h2 {
+  font-size: 1.5em;
+}
+
+/* line 37, sass/partials/_typography.scss */
+h3 {
+  font-size: 1.3125em;
+  font-weight: bold;
+  color: #222222;
+  padding: 2em 0;
+}
+
+/* line 44, sass/partials/_typography.scss */
+h4 {
+  font-size: 1.125em;
+  font-weight: bold;
+  color: #222222;
+  padding: 2em 0;
+}
+
+/* line 51, sass/partials/_typography.scss */
+h5 {
+  font-size: 1em;
+  font-weight: bold;
+  color: #222222;
+  padding: 2em 0;
+}
+
+/* line 58, sass/partials/_typography.scss */
+q {
+  font-style: italic;
+  text-align: center;
+}
+/* line 61, sass/partials/_typography.scss */
+q::before, q::after {
+  content: '"';
+}
+
+/* line 66, sass/partials/_typography.scss */
+p {
+  font-size: 1em;
+}
+
+/* line 70, sass/partials/_typography.scss */
+a {
+  font-family: Open Sans;
+}
+
+/* line 74, sass/partials/_typography.scss */
+input {
+  padding: 18px;
+  border: 2px solid #c8c8c8;
+}
+/* line 77, sass/partials/_typography.scss */
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 82, sass/partials/_typography.scss */
+input:focus {
+  outline: none;
+}
+
+/* line 6, sass/modules/_footer.scss */
+footer {
+  background: #e3e3e3;
+  padding: 3em 0;
+}
+/* line 9, sass/modules/_footer.scss */
+footer #footer_nav {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+/* line 13, sass/modules/_footer.scss */
+footer #footer_nav ul {
+  margin: 0 20%;
+  width: 80%;
+}
+/* line 16, sass/modules/_footer.scss */
+footer #footer_nav ul li {
+  display: inline-block;
+  float: left;
+}
+/* line 20, sass/modules/_footer.scss */
+footer #footer_nav ul a {
+  color: #636363;
+  padding: 8px 15px;
+  background: #e3e3e3;
+  transition: color 0.3s linear;
+  -webkit-transition: color 0.3s linear;
+  -moz-transition: color 0.3s linear;
+  -o-transition: color 0.3s linear;
+}
+/* line 25, sass/modules/_footer.scss */
+footer #footer_nav ul a:hover {
+  color: #a3a3a3;
+}
+
+/* line 3, sass/modules/_fonticon.scss */
+.fa-wrap {
+  margin-top: 10px;
+}
+/* line 5, sass/modules/_fonticon.scss */
+.fa-wrap .fa::before {
+  speak: none;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  position: absolute;
+  top: 25%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+/* line 21, sass/modules/_fonticon.scss */
+.fa-wrap .fa {
+  display: inline-block;
+  font-size: 0px;
+  cursor: pointer;
+  margin-right: 10px;
+  width: 12%;
+  height: 0;
+  padding: 6% 0;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: white;
+  overflow: hidden;
+  background-color: #222222;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" 5 ")";
+  /* IE 5-7 */
+  filter: alpha(opacity=5);
+  /* Netscape */
+  -moz-opacity: 0.5;
+  /* Safari 1.x */
+  -khtml-opacity: 0.5;
+  /* Good browsers */
+  opacity: 0.5;
+  transition: background 0.1s linear;
+  -webkit-transition: background 0.1s linear;
+  -moz-transition: background 0.1s linear;
+  -o-transition: background 0.1s linear;
+}
+/* line 38, sass/modules/_fonticon.scss */
+.fa-wrap .fa:hover {
+  background: #2ecc71 !important;
+  color: white;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" 10 ")";
+  /* IE 5-7 */
+  filter: alpha(opacity=10);
+  /* Netscape */
+  -moz-opacity: 1;
+  /* Safari 1.x */
+  -khtml-opacity: 1;
+  /* Good browsers */
+  opacity: 1;
+}
+/* line 42, sass/modules/_fonticon.scss */
+.fa-wrap .fa:hover::before {
+  -webkit-animation: toBottomFromTop 0.3s forwards;
+  -moz-animation: toBottomFromTop 0.3s forwards;
+  -o-animation: toBottomFromTop 0.3s forwards;
+  animation: toBottomFromTop 0.3s forwards;
+}
+/* line 49, sass/modules/_fonticon.scss */
+.fa-wrap .fa::after {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  content: '';
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  display: none;
+}
+/* line 61, sass/modules/_fonticon.scss */
+.fa-wrap .fa::before {
+  speak: none;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  position: absolute;
+  top: 25%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+@-webkit-keyframes toBottomFromTop {
+  /* line 81, sass/modules/_fonticon.scss */
+  49% {
+    -webkit-transform: translateY(100%);
+  }
+
+  /* line 84, sass/modules/_fonticon.scss */
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+  }
+
+  /* line 88, sass/modules/_fonticon.scss */
+  51% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes toBottomFromTop {
+  /* line 93, sass/modules/_fonticon.scss */
+  49% {
+    -moz-transform: translateY(100%);
+  }
+
+  /* line 96, sass/modules/_fonticon.scss */
+  50% {
+    opacity: 0;
+    -moz-transform: translateY(-100%);
+  }
+
+  /* line 100, sass/modules/_fonticon.scss */
+  51% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes toBottomFromTop {
+  /* line 105, sass/modules/_fonticon.scss */
+  49% {
+    -o-transform: translateY(100%);
+  }
+
+  /* line 108, sass/modules/_fonticon.scss */
+  50% {
+    opacity: 0;
+    -o-transform: translateY(-100%);
+  }
+
+  /* line 112, sass/modules/_fonticon.scss */
+  51% {
+    opacity: 1;
+  }
+}
+
+@keyframes toBottomFromTop {
+  /* line 117, sass/modules/_fonticon.scss */
+  49% {
+    transform: translateY(100%);
+  }
+
+  /* line 120, sass/modules/_fonticon.scss */
+  50% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  /* line 124, sass/modules/_fonticon.scss */
+  51% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  /* line 4, sass/layout/_media.scss */
+  body {
+    font-size: 90%;
+  }
+
+  /* line 7, sass/layout/_media.scss */
+  q {
+    text-align: center;
+  }
+
+  /* line 10, sass/layout/_media.scss */
+  #notified .vimeo {
+    padding: 0 0 2em;
+  }
+
+  /* line 13, sass/layout/_media.scss */
+  #notified input[type="submit"] {
+    width: 40%;
+  }
+
+  /* line 16, sass/layout/_media.scss */
+  .fa-wrap {
+    text-align: center;
+    margin-top: 1.5em;
+  }
+  /* line 19, sass/layout/_media.scss */
+  .fa-wrap .fa {
+    width: 50px !important;
+    padding: 25px 0 !important;
+  }
+
+  /* line 25, sass/layout/_media.scss */
+  #slider.responsive-bg #main h1 {
+    width: 100%;
+    max-width: 100%;
+    background-position: center;
+    margin: 1.5em 0 0.5em 0;
+  }
+  /* line 31, sass/layout/_media.scss */
+  #slider.responsive-bg #main p {
+    text-align: center;
+    text-shadow: 1px 1px 3px #666;
+  }
+}
+@media screen and (max-width: 504px) {
+  /* line 39, sass/layout/_media.scss */
+  p {
+    text-align: center;
+  }
+
+  /* line 42, sass/layout/_media.scss */
+  h1, h2, h3, h4, h5 {
+    text-align: center;
+  }
+
+  /* line 45, sass/layout/_media.scss */
+  #device {
+    display: none;
+  }
+
+  /* line 48, sass/layout/_media.scss */
+  #hamburger {
+    display: block;
+  }
+}

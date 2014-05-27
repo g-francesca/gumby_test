@@ -1,0 +1,31 @@
+// FEATURES Module Style
+
+@import "partials/base";
+@import "partials/typography";
+
+footer {
+	background: $gray;
+	padding: 3em 0;
+	#footer_nav {
+		text-align: center;
+		margin: 0 auto;
+		width: 100%;
+		ul {
+			margin: 0 20%;
+			width: 80%;
+			li {
+				display: inline-block;
+				float: left;
+			}
+			a {
+				color: darken($gray, 50%);
+				padding: 8px 15px;
+				background: $gray;
+				@include transition(color 0.3s linear);
+				&:hover {
+					color: darken($gray, 25%);
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,84 @@
+// TYPOGRAPHY Style
+
+@import url(http://fonts.googleapis.com/css?family=Alef);
+
+html, body {
+	font-size: 14px; // for IE
+	font-size: 100%;
+}
+
+.wrapper {
+	background-color: white;
+}
+
+.hidden {
+	text-indent: -9999px;
+	height: 0;
+}
+
+section {
+	margin-bottom: 3.75em;
+	clear: both;
+    _overflow: visible; /* for IE */
+    _zoom: 1; /* for IE */
+	article {
+		margin-bottom: 3em;
+	}
+}
+
+h1 {
+	font-size: 2.25em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.3125em;
+	font-weight: bold;
+	color: $title;
+	padding: 2em 0;
+}
+
+h4 {
+	font-size: 1.125em;
+	font-weight: bold;
+	color: $title;
+	padding: 2em 0;
+}
+
+h5 {
+	font-size: 1em;
+	font-weight: bold;
+	color: $title;
+	padding: 2em 0;
+}
+
+q {
+	font-style: italic;
+	text-align:center;
+	&::before, &::after {
+		content: '"';
+	}
+}
+
+p {
+	font-size: 1em;
+}
+
+a {
+	font-family: Open Sans;
+}
+
+input {
+	padding: 18px;
+	border: 2px solid $border;
+	&::-moz-focus-inner { 
+		border:0; padding:0 
+	}
+}
+
+input:focus {
+	outline:none;
+}

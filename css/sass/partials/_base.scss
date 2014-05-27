@@ -1,0 +1,39 @@
+// BASE Style
+
+// Variables and Mixin
+
+$green: #2ecc71;
+$text: #848484;
+$title: #222;
+$gray: #e3e3e3;
+$border: #c8c8c8;
+
+
+@mixin border-radius($radius) {
+	-moz-border-radius: $radius; /* Firefox */  
+ 	-webkit-border-radius: $radius; /* Safari, Chrome */  
+  -o-border-radius: $radius;
+  -ms-border-radius: $radius;
+ 	border-radius: $radius; /* CSS3 */ 
+ }
+
+ @mixin opacity($value) {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity="$value")";
+  /* IE 5-7 */
+  filter: alpha(opacity=$value);
+  /* Netscape */
+  -moz-opacity: $value/10;
+  /* Safari 1.x */
+  -khtml-opacity: $value/10;
+  /* Good browsers */
+  opacity: $value/10;
+}
+
+@mixin transition($transition) {
+  transition: $transition;
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -o-transition: $transition;
+}
+
+
